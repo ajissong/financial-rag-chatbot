@@ -1,4 +1,5 @@
 # Financial RAG Chatbot (금융 용어 검색 챗봇)
+# Reference(일부 참조): https://wikidocs.net/287159
 
 ABC은행의 금융 용어 700선을 기반으로 한 RAG(Retrieval-Augmented Generation) 챗봇입니다.
 
