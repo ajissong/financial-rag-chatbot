@@ -40,12 +40,12 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ### 3. 실행
 ```bash
-python config.py
+python finrag.py
 ```
 
 ## 🏗️ 아키텍처
 
-### 최신 LangChain LCEL 구조
+### LangChain LCEL 구조 (simple RAG)
 ```python
 chain = (
     RunnableLambda(create_rag_chain)  # RAG 로직 처리
@@ -63,7 +63,7 @@ chain = (
 
 ```
 finrag/
-├── config.py              # 메인 애플리케이션
+├── finrag.py              # 메인 애플리케이션
 ├── requirements.txt       # 의존성 목록
 ├── README.md             # 프로젝트 문서
 ├── .gitignore            # Git 제외 파일
