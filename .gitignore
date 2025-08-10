@@ -44,6 +44,7 @@ Thumbs.db
 
 # Database files (optional - remove if you want to include the vector DB)
 chroma_db/
+IMF_DB/
 
 
 
